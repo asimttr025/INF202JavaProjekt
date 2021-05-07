@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="603.0" maxWidth="928.0" minHeight="603.0" minWidth="928.0" prefHeight="603.0" prefWidth="928.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sceneController">
+   <children>
+      <TextField focusTraversable="false" layoutX="532.0" layoutY="150.0" prefHeight="42.0" prefWidth="198.0" promptText="ID">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <PasswordField focusTraversable="false" layoutX="532.0" layoutY="237.0" prefHeight="42.0" prefWidth="198.0" promptText="Passwort">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </PasswordField>
+      <Label alignment="CENTER" layoutX="300.0" layoutY="29.0" prefHeight="34.0" prefWidth="328.0" text="Burn-IN Tester">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Button fx:id="login_button" focusTraversable="false" layoutX="532.0" layoutY="309.0" mnemonicParsing="false" onAction="#login_button_isClicked" pickOnBounds="false" prefHeight="44.0" prefWidth="128.0" text="Anmelden">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <ImageView fitHeight="394.0" fitWidth="270.0" layoutX="114.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/login-icon.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="533.0" layoutY="123.0" prefHeight="27.0" prefWidth="36.0" text="ID:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="532.0" layoutY="210.0" prefHeight="27.0" prefWidth="113.0" text="PASSWORT:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
